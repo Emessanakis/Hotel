@@ -1,0 +1,69 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+}
+.text-cont{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.5em;
+    max-width: 1240px;
+    min-width: 640px;
+    width: 55vw;
+}
+.text-h2{
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.text{
+    margin: 30px 80px 30px 80px;
+}
+
+.offer-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.text-offers{
+    padding: 20px;
+    width: 85vw;
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.offers-container{
+    display: flex;
+    width: 85vw;
+    height: 40vh;
+    min-width: 640px;
+    min-height: 150px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.panel{
+    background-color: rgba(228, 228, 215, 1);
+    width: 30vw;
+    height: 35vh;
+    margin: 15px 15px 0 15px;
+
+}
+.panel :hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+.panel-cont{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.suite-image{
+    width: 100%;
+    height: 100%;
+}
